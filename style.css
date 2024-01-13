@@ -114,6 +114,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 }
 
 .facts-card-container .card {
@@ -189,6 +190,7 @@ main {
     text-align: center;
   }
 
+
   .facts-card-container {
     gap: 30px;
   }
@@ -208,8 +210,12 @@ main {
     padding: 50px;
   }
   nav,
-  .teams-container
+  .teams-container,
+  .sponsor-img-container
   {
     flex-direction: column;
+  }
+  .facts {
+    text-align: center;
   }
 }
